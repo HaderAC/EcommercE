@@ -70,7 +70,7 @@ router.put('/:id', async (req, res) => {
       },
     },
     )
-    res.status(200).json(categoryData3); 
+    res.status(200).json(categoryData4); 
   }catch(e) {
     res.status(500).json(e);
     console.log(e);
